@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión Escolar</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Escuela ITQ Extensión Tolimán</h1>
+        <p>Plataforma de gestión escolar. Puedes consultar la información de alumnos y materias.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#seccionEstudiantes">Consulta de Estudiantes</a></li>
+            <li><a href="#seccionMaterias">Consulta de Materias</a></li>
+        </ul>
+    </nav>
+    
+    <section id="seccionEstudiantes">
+        <h2>Consulta de Estudiantes</h2>
+        <p>Ingrese el número de control del estudiante para ver su información.</p>
+        <form id="consultaEstudiante">
+            <label for="numControl">Número de Control:</label>
+            <input type="text" id="numControl" name="numControl" placeholder="Ejemplo: 12345">
+            <button type="button" onclick="consultarEstudiante()">Consultar</button>
+        </form>
+        <div id="resultadoEstudiante"></div>
+    </section>
+    
+    <section id="seccionMaterias">
+        <h2>Consulta de Materias</h2>
+        <p>Ingrese el nombre de la materia para ver su información.</p>
+        <form id="consultaMateria">
+            <label for="nombreMateria">Nombre de Materia:</label>
+            <input type="text" id="nombreMateria" name="nombreMateria" placeholder="Ejemplo: Matemáticas">
+            <button type="button" onclick="consultarMateria()">Consultar</button>
+        </form>
+        <div id="resultadoMateria"></div>
+    </section>
+
+    <footer>
+		<p>Elaborado por:</p>
+        <p>Gabriel de Santiago Morales</p>
+		<p>Arleth de Santiago Gutiérrez</p>
+		<p>Jesús Miguel Labastida Morales</p>
+    </footer>
+
+    <script>
+        window.misDatosMaterias = function(info) {
+            console.log("Datos de materias cargados:", info);
+            window.datos = window.datos || {};
+            window.datos.materias = info;
+        };
+        console.log("Función `misDatosMaterias` definida en el contexto global.");
+    </script>
+
+    <script src="materias.jsonp"></script>
+    <script src="Ejemplo5.js"></script> 
+    <script src="estudiantes.js"></script>
+</body>
+</html>
+
