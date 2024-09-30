@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escuela>
+    <estudiante>
+        <numControl>12345</numControl>
+        <nombre>Juan Pérez</nombre>
+        <edad>20</edad>
+        <carrera>Ingeniería en Sistemas</carrera>
+        <correo>juan.perez@gmail.com</correo>
+    </estudiante>
+    <estudiante>
+        <numControl>23456</numControl>
+        <nombre>María López</nombre>
+        <edad>21</edad>
+        <carrera>Administración</carrera>
+        <correo>maria.lopez@gmail.com</correo>
+    </estudiante>
+    <estudiante>
+        <numControl>34567</numControl>
+        <nombre>Carlos Sánchez</nombre>
+        <edad>22</edad>
+        <carrera>Contabilidad</carrera>
+        <correo>carlos.sanchez@mail.com</correo>
+    </estudiante>
+    <estudiante>
+        <numControl>45678</numControl>
+        <nombre>Gabriel de Santiago</nombre>
+        <edad>21</edad>
+        <carrera>ISC</carrera>
+        <correo>gabii21@mail.com</correo>
+    </estudiante>
+	<estudiante>
+        <numControl>56789</numControl>
+        <nombre>Arleth Gutiérrez</nombre>
+        <edad>22</edad>
+        <carrera>ISC</carrera>
+        <correo>aaarleth@gmail.com</correo>
+    </estudiante>
+	<estudiante>
+        <numControl>67891</numControl>
+        <nombre>Miguel Labastida</nombre>
+        <edad>22</edad>
+        <carrera>ISC</carrera>
+        <correo>migueeL@gmail.com</correo>
+    </estudiante>
+	<estudiante>
+        <numControl>78912</numControl>
+        <nombre>Juan Pérez</nombre>
+        <edad>20</edad>
+        <carrera>Administración</carrera>
+        <correo>juan@gmail.com</correo>
+    </estudiante>
+	<estudiante>
+        <numControl>89123</numControl>
+        <nombre>Carlos Yael</nombre>
+        <edad>21</edad>
+        <carrera>ISC</carrera>
+        <correo>carlosy@gmail.com</correo>
+    </estudiante>
+	<estudiante>
+        <numControl>91234</numControl>
+        <nombre>Marisol Gudiño</nombre>
+        <edad>21</edad>
+        <carrera>ISC</carrera>
+        <correo>marig@gmail.com</correo>
+    </estudiante>
+	<estudiante>
+        <numControl>24681</numControl>
+        <nombre>Angel Resendiz</nombre>
+        <edad>22</edad>
+        <carrera>Administración</carrera>
+        <correo>angel22@mail.gcom</correo>
+    </estudiante>
+</escuela>
