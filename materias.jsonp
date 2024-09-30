@@ -1,0 +1,33 @@
+
+misDatosMaterias([
+    {
+	"nombre": "Matemáticas", "clave": "mate021", "profesor": "Ricardo Olvera", "salón": "A1", "horario": "Lunes 8-10"
+	},
+    {
+	"nombre": "Historia", "clave": "h1546", "profesor": "Ana Mariela", "salón": "A2", "horario": "Martes 10-12"
+	},
+    {
+	"nombre": "Económia", "clave": "1645", "profesor": "Oscar Fabian", "salón": "A3", "horario": "Miércoles 12-14"
+	},
+    {
+	"nombre": "Química", "clave": "Qmc123", "profesor": "Vicente González", "salón": "A4", "horario": "Jueves 8-10"
+	},
+    {
+	"nombre": "Biología", "clave": "Bl879", "profesor": "Jesús Miguel Labastida", "salón": "A5", "horario": "Viernes 10-12"
+	},
+    {
+	"nombre": "Inglés", "clave": "Ig456", "profesor": "Arleth de Santiago", "salón": "A6", "horario": "Lunes 14-16"
+	},
+    {
+	"nombre": "Programación", "clave": "Pros45", "profesor": "Gabriel de Santiago", "salón": "A7", "horario": "Martes 8-10"
+	},
+    {
+	"nombre": "Física", "clave": "Fis123", "profesor": "Rosa Flores", "A8": "H801", "horario": "Miércoles 10-12"
+	},
+    {
+	"nombre": "Filosofia", "clave": "Fi145", "profesor": "Marta Ruiz", "salón": "A9", "horario": "Jueves 12-14"
+	},
+    {
+	"nombre": "Conmutación", "clave": "Cn4561", "profesor": "Jorge Núñez", "salón": "T1", "horario": "Viernes 14-16"
+	}
+]);
